@@ -8,6 +8,7 @@ from langchain_core.documents import Document
 import os
 from chroma_utils import vectorstore
 from dotenv import load_dotenv
+import asyncio
 
 load_dotenv()
 
@@ -41,10 +42,30 @@ qa_prompt = ChatPromptTemplate.from_messages(
     ]
 )
 
-def get_rag_chain(model = "gpt-4o-mini"):
-    llm = ChatOpenAI(api_key=openai_api_key, model=model)
-    history_aware_retriever = create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
-    qa_chain = create_stuff_documents_chain(llm, qa_prompt)
-    rag_chain = create_retrieval_chain(history_aware_retriever, qa_chain)
+async def get_rag_chain(model = "gpt-4o-mini"):
+    """
+    Create and return an async RAG chain
+    """
+    llm = ChatOpenAI(
+        api_key=openai_api_key, 
+        model=model,
+        # streaming=True 
+    )
+    
+    history_aware_retriever = await asyncio.get_event_loop().run_in_executor(
+        None,
+        lambda: create_history_aware_retriever(llm, retriever, contextualize_q_prompt)
+    )
+
+    qa_chain = await asyncio.get_event_loop().run_in_executor(
+        None,
+        lambda: create_stuff_documents_chain(llm, qa_prompt)
+    )
+    
+    rag_chain = await asyncio.get_event_loop().run_in_executor(
+        None,
+        lambda: create_retrieval_chain(history_aware_retriever, qa_chain)
+    )
+    
     return rag_chain
 

@@ -40,3 +40,34 @@ INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Session ID: 6d36a8a4-bb01-4996-9692-e5ef3a992244, AI Response: By 2030, NovaTech Solutions aims to be the world’s leading provider of fully autonomous, AI-driven enterprise systems, with a focus on sustainability, accessibility, and innovation.
+INFO:root:Session ID: 475d6609-fd05-4e81-b9c0-e220ba92a42d, User Query: Hi, Model: gpt-4o-mini
+INFO:root:Session ID: 9885063c-21e1-48a6-9786-683aa95fcab5, User Query: hi, Model: gpt-4o-mini
+INFO:root:Session ID: 4ed9448a-4cba-4721-8a6c-edd2c3922f2c, User Query: hi, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 4ed9448a-4cba-4721-8a6c-edd2c3922f2c, AI Response: Hello! How can I assist you today?
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, User Query: where is HelixBio Systems located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, AI Response: HelixBio Systems, Inc. is located at 6789 Genetic Drive, BioTech Park, Boston, Massachusetts, USA.
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, User Query: what is its vision?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, AI Response: HelixBio Systems envisions a world by 2030 where genetic innovations drive sustainable agriculture, enhance global health, and create eco-friendly industrial materials, contributing to a greener, healthier planet.
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, User Query: what are its services?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: c574411a-cde6-49d1-a690-2a8072079d0e, AI Response: HelixBio Systems, Inc. offers the following core product and service:
+
+- **GeneForge CRISPR Suite**: A state-of-the-art genome editing platform for precision engineering of genetic material.
+
+Applications of the GeneForge CRISPR Suite include:
+- Disease-resistant crops
+- Medical applications
+- Industrial applications
+
+Additionally, the company engages in various strategic partnerships and corporate social responsibility initiatives that align with its mission.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
