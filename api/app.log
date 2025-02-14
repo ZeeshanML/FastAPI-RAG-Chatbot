@@ -1,0 +1,42 @@
+INFO:root:Session ID: fd0fc5f2-c1ef-42cb-af26-c7158d003251, User Query: Hi, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: fd0fc5f2-c1ef-42cb-af26-c7158d003251, AI Response: Hello! How can I assist you today?
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: f4882848-25e2-41d9-82d0-2ea3affb3b33, User Query: Where is Novatech solution headquartered?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: f4882848-25e2-41d9-82d0-2ea3affb3b33, AI Response: NovaTech Solutions, Inc. is headquartered at 4567 Innovation Parkway, Tech Valley, California, USA.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 2157a93e-7628-45d8-bf49-7a0c38c6aa8e, User Query: What is AetherTech Innovations mission?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 2157a93e-7628-45d8-bf49-7a0c38c6aa8e, AI Response: AetherTech Innovations' mission statement is: "Revolutionizing the way the world connects through advanced communication technologies and sustainable innovations."
+INFO:root:Session ID: 7e28fabd-77d0-4f25-a6b1-042b3f201081, User Query: Where are its headquarters?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 7e28fabd-77d0-4f25-a6b1-042b3f201081, AI Response: NovaTech Solutions, Inc. is headquartered at 4567 Innovation Parkway, Tech Valley, California, USA.
+INFO:root:Session ID: 063ae62a-bcd6-46cd-aa93-2498ff1ec510, User Query: I'm asking for AetherTech Innovations?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 063ae62a-bcd6-46cd-aa93-2498ff1ec510, AI Response: AetherTech Innovations, Inc. is a cutting-edge technology company founded in 2018, headquartered at 789 Cloudline Drive, Future City, New York, USA. The company specializes in next-generation communication systems, satellite networks, and clean energy solutions. Its mission is to revolutionize the way the world connects through advanced communication technologies and sustainable innovations.
+
+AetherTech has made significant advancements in satellite-based internet services and has developed eco-friendly solutions for power-efficient networks. Their flagship platform, "AetherConnect," facilitates seamless global communication for remote industries, smart cities, and emerging markets. By 2030, the company aims to create a sustainable global communications network powered by clean energy, ensuring reliable, affordable, and secure internet access even in the most remote regions.
+INFO:root:Session ID: 8e5718d2-57c6-4b39-8c62-b0db35fb007b, User Query: Where is it headquartered?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 8e5718d2-57c6-4b39-8c62-b0db35fb007b, AI Response: NovaTech Solutions, Inc. is headquartered at 4567 Innovation Parkway, Tech Valley, California, USA.
+INFO:root:Session ID: 6d36a8a4-bb01-4996-9692-e5ef3a992244, User Query: Where is it headquartered?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 6d36a8a4-bb01-4996-9692-e5ef3a992244, AI Response: NovaTech Solutions, Inc. is headquartered at 4567 Innovation Parkway, Tech Valley, California, USA.
+INFO:root:Session ID: 6d36a8a4-bb01-4996-9692-e5ef3a992244, User Query: What is its vision?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 6d36a8a4-bb01-4996-9692-e5ef3a992244, AI Response: By 2030, NovaTech Solutions aims to be the world’s leading provider of fully autonomous, AI-driven enterprise systems, with a focus on sustainability, accessibility, and innovation.
