@@ -6,9 +6,16 @@ from langchain_core.documents import Document
 from typing import List
 import aiofiles
 import asyncio
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+openai_api_key = os.getenv("OPENAI_API_KEY")
+# print(openai_api_key)
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-embedding_function = OpenAIEmbeddings()
+embedding_function = OpenAIEmbeddings(api_key = openai_api_key)
 vectorstore = Chroma(persist_directory="./chroma_db", embedding_function=embedding_function)
 
 async def load_and_split_document(file_path: str) -> List[Document]:

@@ -71,3 +71,52 @@ Applications of the GeneForge CRISPR Suite include:
 
 Additionally, the company engages in various strategic partnerships and corporate social responsibility initiatives that align with its mission.
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, User Query: Where is solara energy headquarters located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, AI Response: Solara Energy Corp. is headquartered at 987 Renewable Way, GreenTech City, Austin, Texas, USA.
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, User Query: What is its mission?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, AI Response: Solara Energy Corp.'s mission statement is: "Powering a sustainable future through renewable energy innovation and technology-driven solutions."
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, User Query: What is its moto?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: afbf2b39-ee4b-4e3e-ad1b-453ba4bcfad5, AI Response: The motto of Solara Energy Corp. is "Empowering Tomorrow's Energy."
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, User Query: Where is solara energy headquarters located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, AI Response: The context provided does not contain information about Solara Energy or its headquarters location. You may need to check other sources or provide more details for assistance.
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, User Query: Where is Vortex Robotics headquarters located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, AI Response: The context provided does not include information about Vortex Robotics or its headquarters location. You may need to consult other resources for that information.
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, User Query: What is the weather in kasur right now?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 600a6747-dddd-4986-b410-0c8b64d49812, AI Response: I'm unable to provide real-time weather updates as my training data goes up to October 2023 and I don't have access to current internet data. You can check a reliable weather website or app for the most up-to-date information on the weather in Kasur.
+INFO:root:Session ID: 9ce94a08-cb2e-4323-98e2-f14816fb05cb, User Query: Where are aethertech solution's headquarters?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 9ce94a08-cb2e-4323-98e2-f14816fb05cb, AI Response: The provided context does not contain any information about Aethertech Solutions or its headquarters. Therefore, I cannot answer your question about Aethertech Solutions. If you have more specific details about this company, please share them, and I'll do my best to assist you.
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, User Query: Where are aethertech colutions headquarters located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, AI Response: I'm sorry, but I don't have information about Aethertech Solutions' headquarters. My knowledge is limited to Vortex Robotics, Inc. If you need information about that company or similar topics, feel free to ask!
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, User Query: Where are aethertech colutions headquarters located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, AI Response: AetherTech Innovations, Inc. headquarters is located at 789 Cloudline Drive, Future City, New York, USA.
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, User Query: What is its mission?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, AI Response: The mission of AetherTech Innovations, Inc. is "Revolutionizing the way the world connects through advanced communication technologies and sustainable innovations."
