@@ -1,4 +1,5 @@
 from fastapi import FastAPI, UploadFile, HTTPException, File
+from fastapi.middleware.cors import CORSMiddleware
 import aiofiles
 import asyncio
 from pydantic_models import QueryInput, QueryResponse, DocumentInfo, DeleteFileRequest
@@ -13,6 +14,14 @@ import shutil
 logging.basicConfig(filename="app.log", level=logging.INFO)
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # In production, replace with specific origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 async def hello_world():

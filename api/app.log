@@ -120,3 +120,8 @@ INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 INFO:root:Session ID: 1de329d0-cb81-4250-b0bf-62a2a1018914, AI Response: The mission of AetherTech Innovations, Inc. is "Revolutionizing the way the world connects through advanced communication technologies and sustainable innovations."
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:root:Session ID: abffadeb-9e0d-4134-860d-b76ae0e7f8d5, User Query: where is helixbio systems located?, Model: gpt-4o-mini
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:Session ID: abffadeb-9e0d-4134-860d-b76ae0e7f8d5, AI Response: HelixBio Systems, Inc. is located at 6789 Genetic Drive, BioTech Park, Boston, Massachusetts, USA.
